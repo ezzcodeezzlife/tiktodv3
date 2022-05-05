@@ -1,3 +1,5 @@
+v4
+
 ## How can I install and use this?
 0. Read the in [in-depth tutorial](https://my-tailwind-nextjs-starter-blog.vercel.app/blog/how-to-use-tiktodv3-tiktok-script-python) about how to set up this script if you have little to no knowledge in coding.
 1. Git-clone this repo & change directory
