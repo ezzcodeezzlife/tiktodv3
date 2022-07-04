@@ -25,7 +25,7 @@ print("1. Viewbot.\n2. Heartbot.\n3. Followerbot.\n3. Sharebot.\n4. Credits.\n")
 auto = int(input("Mode: "))
 
 if auto == 1 or auto == 2 or auto == 3 or auto == 4:
-    vidUrl = input("TikTok video URL: ")
+    vidUrl = input("TikTok video URL:https://www.tiktok.com/@abdallahomran/video/7115986784252710149?is_from_webapp=1&sender_device=pc&web_id=7075189428894057989 ")
 
     start = time()
     time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
@@ -37,9 +37,9 @@ if auto == 1 or auto == 2 or auto == 3 or auto == 4:
     driver = webdriver.Chrome( options=chrome_options)
     driver.set_window_size(1024, 650)
 
-    Views = 0
-    Hearts = 0
-    Followers = 0
+    Views = 120000
+    Hearts = 24025
+    Followers = 73002
 
 def beautify(arg):
     return format(arg, ',d').replace(',', '.')
